@@ -1,0 +1,17 @@
+
+# Flink config
+env.parallelism=4
+checkpoint.path=file:///C:/data/checkpoints
+checkpoint.interval.ms=5000
+batch.size=1000
+batch.interval.ms=2000
+
+# Database
+jdbc.driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+jdbc.url=jdbc:sqlserver://localhost:1433;databaseName=Flink;encrypt=false
+jdbc.username=sa
+jdbc.password=YOUR_PASSWORD_HERE
+
+# CSV Path
+csv.path.customers=file:///C:/data/customers
+csv.path.orders=file:///C:/data/orders
