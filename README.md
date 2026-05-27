@@ -206,4 +206,4 @@ flink run -Dflink.env=uat target/flink-csv-mssql-1.0-SNAPSHOT-shaded.jar
 
 ## License
 
-Private project — adjust as needed.
+MIT License — see LICENSE file.
